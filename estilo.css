@@ -2,15 +2,15 @@
 
 main{
     border: 1px solid black;
-    background-color: rgb(167, 167, 235);
+    background-color:#552179;
 }
 
 .casa{
-    border: 2px solid rgb(7, 6, 9);
+    border: 2px solid rgb(0, 0, 0);
     width: 150px;
     height: 150px;
     font-size: 80px;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     text-align: center;
     line-height: 150px;
 }
@@ -20,6 +20,10 @@ main{
 }
 body{
     display: flex;
-    
+    background-color: #210046;
     justify-content: center;
+}
+.placar{
+
+    color: aliceblue;
 }

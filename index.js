@@ -87,10 +87,10 @@ function vitorias(vencedor) {
 
   placar.innerHTML = ` <p>placar</p>  <p> X:${vitorias_X}</p>  <P>O:${vitorias_O}</P> `;
 
-
+}
   function iniciarJogo(){
 
-  letcasas = document.getElementsByClassName("casa")
+  let casas = document.getElementsByClassName("casa")
   casas[0].innerHTML = "";
   casas[1].innerHTML = "";
   casas[2].innerHTML = "";
@@ -100,8 +100,8 @@ function vitorias(vencedor) {
   casas[6].innerHTML = "";
   casas[7].innerHTML = "";
   casas[8].innerHTML = "";
-  casas[9].innerHTML = "";
-} }
+
+} 
 
 let quem_inicia = prompt("informe x ou o").toLocaleUpperCase();
 jogador = quem_inicia;
