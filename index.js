@@ -86,6 +86,7 @@ function vitorias(vencedor) {
     vitorias_O = vitorias_O + 1;
 
   placar.innerHTML = ` <p>placar</p>  <p> X:${vitorias_X}</p>  <P>O:${vitorias_O}</P> `;
+  placar.style.color = "white";
 
 }
   function iniciarJogo(){

@@ -1,16 +1,16 @@
 
 
 main{
-    border: 1px solid black;
-    background-color:#552179;
+    border: 1px solid rgb(0, 0, 0);
+    background-color:#000000;
 }
 
 .casa{
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
     width: 150px;
     height: 150px;
     font-size: 80px;
-    color: rgb(0, 0, 0);
+    color: rgb(241, 228, 228);
     text-align: center;
     line-height: 150px;
 }
@@ -19,11 +19,13 @@ main{
     grid-template-columns: 150px 150px 150px;
 }
 body{
+    
     display: flex;
-    background-color: #210046;
+    background-color: #000000;
     justify-content: center;
 }
-.placar{
-
+.titulo{
     color: aliceblue;
+    text-align: center;
 }
+
